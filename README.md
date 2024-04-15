@@ -27,3 +27,15 @@ Common Windows Command Prompt (CMD) commands:
 23. `fc`: Compares two files or sets of files.
 24. `help`: Displays help information for commands.
 25. `exit`: Exits the Command Prompt.
+
+
+# DJANGO:
+
+python -m venv todolist-venv
+pip install django
+python.exe -m pip install --upgrade pip
+django-admin.exe startproject src
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
