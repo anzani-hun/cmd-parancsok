@@ -31,11 +31,11 @@ Common Windows Command Prompt (CMD) commands:
 
 # DJANGO:
 
-python -m venv todolist-venv
-pip install django
-python.exe -m pip install --upgrade pip
-django-admin.exe startproject src
-python manage.py runserver
-python manage.py makemigrations
-python manage.py migrate
-python manage.py createsuperuser
+1. `python -m venv todolist-venv`
+2. `pip install django`
+3. `python.exe -m pip install --upgrade pip`
+4. `django-admin.exe startproject src`
+5. `python manage.py runserver`
+6. `python manage.py makemigrations`
+7. `python manage.py migrate`
+8. `python manage.py createsuperuser`
